@@ -47,6 +47,10 @@ body {
   box-shadow: 8px 4px 8px 0 rgba(0, 0, 0, 0.2);
   animation: 2s ease both showHide;
   animation-delay: 1.5s;
+  transition: background 0.5s;
+}
+.text a:hover {
+  background-color: #8235c9;
 }
 /* responsive */
 @media screen and (max-width: 550px) {
